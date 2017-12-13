@@ -17,6 +17,7 @@ public class Activator implements BundleActivator {
 	  //testando o jenkins1
 	  //testando o jenkins2
 	  //testando o jenkins3
+	  //testando o jenkins4
 	  @Override
 	  public void stop( BundleContext context ) throws Exception {
 		  
