@@ -13,7 +13,7 @@ public class Activator implements BundleActivator {
 		  RestServiceExample exampleService = new RestServiceExample();
 	    registration = context.registerService( RestServiceExample.class.getName(), exampleService, null );
 	  }
-
+	  //testando o jenkins
 	  @Override
 	  public void stop( BundleContext context ) throws Exception {
 		  
