@@ -13,7 +13,9 @@ public class Activator implements BundleActivator {
 		  RestServiceExample exampleService = new RestServiceExample();
 	    registration = context.registerService( RestServiceExample.class.getName(), exampleService, null );
 	  }
-
+	  //testando o jenkins
+	  //testando o jenkins1
+	  //testando o jenkins2
 	  @Override
 	  public void stop( BundleContext context ) throws Exception {
 		  
